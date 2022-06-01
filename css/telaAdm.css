@@ -1,0 +1,127 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    body {
+        width: 100%;
+        height: 100vh;
+    }
+    
+    .menu {
+        width: 100%;
+        height: 10%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #C23F47;
+    }
+
+    .list-menu{
+        margin-right: 20px;
+        display: flex;
+    }
+
+    .list-menu .list-item {
+        list-style-type: none;
+        margin-right: 20px ;
+    }
+
+    .list-menu .list-icon {
+        width: 50px;
+        color: black;
+    }
+
+    .main{
+        width: 100%;
+        height: 88%;
+        background-color: #F3F3F3;
+        display: flex;
+    }
+    
+    .logo1 {
+        width: 171px;
+        margin-left: 5%;
+        height: 45px;
+    }
+
+    .right-side{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+     
+
+    .content {
+        width: 80%;
+        height: 90%;
+        background-color: #fff;
+        border-radius: 12px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .titulo {
+        color: #fff;
+    }
+    
+    .menu-lateral {
+        width: 20%;
+        height: 100%;
+        background-color: #C23F47;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .cadastros {
+        margin-top: 60px;
+    }
+
+    .relatorios{
+        margin-top: 60px;
+    }
+
+    .relatorios li{
+        margin-top: 20px;
+        width: 24%;
+
+    }
+    
+    .cadastros li {
+        margin-top: 20px;
+        width: 24%;
+
+    }
+    
+    .top-list {
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 36px;
+        text-align: center;
+        color: #FFFFFF;
+        list-style-type: none;
+    }
+    
+    .top-list a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    .item-list {
+        border: 2px solid purple;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 24px;
+        color: #C7C7C7;
+    }
+    
+    .item-list a {
+        color: #C7C7C7;
+        text-decoration: none;
+    }
+
+  
